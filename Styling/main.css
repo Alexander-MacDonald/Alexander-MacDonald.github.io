@@ -203,6 +203,9 @@
 	font-weight: 550;
 }
 
-#homeSubtext {
-	font-size: 28px;
+#homeBottom{
+	width:100%;
+	height:224px;
+	background:#0E0F19;
+  	overflow: hidden;
 }
