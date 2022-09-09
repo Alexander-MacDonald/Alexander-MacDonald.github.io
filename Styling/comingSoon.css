@@ -37,9 +37,9 @@ body, html {
 }
 
 #three {
-	background-image:-webkit-linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("Images/construction3.jpg");
-	background-image:-o-linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("Images/construction3.jpg");
-	background-image:linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("Images/construction3.jpg");
+	background-image:-webkit-linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("Images/construction4.jpg");
+	background-image:-o-linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("Images/construction4.jpg");
+	background-image:linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("Images/construction4.jpg");
 }
 
 /* Position text in the top-left corner */
