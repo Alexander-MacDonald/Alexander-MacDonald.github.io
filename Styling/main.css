@@ -61,7 +61,7 @@
 }
 
 html {
-	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("Images/tetons2.jpg");
+	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("Styling/Images/tetons2.jpg");
 	background-position: bottom;
 	background-repeat: no-repeat;
 	overflow-y: hidden;
