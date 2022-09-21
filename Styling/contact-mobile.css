@@ -1,3 +1,6 @@
+html {
+    overflow-y:visible;
+}
 form {
     height: 90%;
     width: 90%;
@@ -16,8 +19,12 @@ textarea {
     font-size:2vw;
 }
 
+#pageWrapper {
+    height:fit-content;
+}
+
 #formWrapper {
-    height: auto;
+    height: fit-content;
     width: 90vw;
     display: flex;
     flex-direction: column;
@@ -34,12 +41,12 @@ textarea {
 
 #email {
     width: 100%;
-    height: 9%;
+    height: 3vh;
 }
 
 #message {
     width: 100%;
-    height: 60%;
+    height: 20vh;
 }
 
 #sendBtn {
