@@ -1,19 +1,82 @@
-<!doctype html>
+<!doctype HTML>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Projects</title>
-<link rel="stylesheet" href="Styling/comingSoon.css">
-</head>
-
-<body>
-	<div class="bgimg" id="one">
-  		<div class="middle">
-    		<h1>COMING SOON</h1>
-			<a href="index.html">
-				<button class="home" role="button">Back to Home</button>
-			</a>
-  		</div>
-	</div>
-</body>
+	<head>
+		<meta charset="utf-8">
+		<title>Projects</title>
+		<link rel="stylesheet" href="Styling/styling.css">
+		<link rel="stylesheet" href="Styling/projects.css">
+		<script src="Scripts/projects.js"></script>
+		
+		<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+		<link rel='preload' as='style' href='https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'>
+		<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'>
+	</head>
+	<body>
+		<header>
+			<a href="index.html">Home</a>
+			<nav>
+				<ul>
+					<li><a href="#">Projects</a></li>
+					<li><a href="resume.html">Resume</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="pageWrapper">
+		<h1>Projects</h1>
+		<span class = citation>MacDonald, Alexander. <a class = citationTitle>Grand Teton Mountains</a>, Wyoming. June 13 2022</span>
+		<div id="projectWrapper">
+			<div class="Project" id="Project1">
+				<button id="DescB1" onClick="hideDesc(1)">Asset Visualizer & Stock Data (Aug 2022) ►</button>
+				<div class="ProjectDesc" id="ProjDesc1">
+					<h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h1>
+					<h1>Demo:</h1>
+					<div class="iFrameWrapper">
+						<iframe src="https://www.youtube-nocookie.com/embed/G6xdySad6pg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+			<div class="Project" id="Project2">
+				<button id="DescB2" onClick="hideDesc(2)">Lima Native Diabetes Analysis (May 2022) ►</button>
+				<div class="ProjectDesc" id="ProjDesc2">
+					<h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h1>
+					<h1>Presentation:</h1>
+					<div class="iFrameWrapper">
+						<iframe src="https://onedrive.live.com/embed?cid=58F7293A12ED6D37&resid=58F7293A12ED6D37%21110&authkey=AFaTs51me1qx5yQ&em=2" frameborder="0" scrolling="no"></iframe>
+					</div>
+				</div>
+			</div>
+			<div class="Project" id="Project3">
+				<button id="DescB3" onClick="hideDesc(3)">In-line Bash Command Prompt (Jan 2022) ►</button>
+				<div class="ProjectDesc" id="ProjDesc3">
+					<h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h1>
+					<h1>Demo:</h1>
+					<div class="iFrameWrapper">
+						<iframe src="https://www.youtube-nocookie.com/embed/QAUzWtLMnU0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+			<div class="Project" id="Project4">
+				<button id="DescB4" onClick="hideDesc(4)">Heightmap Perlin Noise Generator (Jan 2022) ►</button>
+				<div class="ProjectDesc" id="ProjDesc4">
+					<h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h1>
+					<h1>Demo:</h1>
+					<div class="iFrameWrapper">
+						<iframe src="https://www.youtube-nocookie.com/embed/QAUzWtLMnU0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+			<div class="Project" id="Project5">
+				<button id="DescB5" onClick="hideDesc(5)">Prefix Sum Calculator (Apr 2021) ►</button>
+				<div class="ProjectDesc" id="ProjDesc5">
+					<h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h1>
+					<h1>Demo:</h1>
+					<div class="iFrameWrapper">
+						<iframe src="https://www.youtube-nocookie.com/embed/QAUzWtLMnU0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</body>	
 </html>

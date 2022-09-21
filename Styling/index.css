@@ -1,0 +1,116 @@
+*{
+	animation: fadeIn 1s;
+  	-webkit-animation: fadeIn 1s;
+  	-moz-animation: fadeIn 1s;
+ 	-o-animation: fadeIn 1s;
+ 	-ms-animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+html {
+	background-image:-webkit-linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("Images/tetons2.jpg");
+	background-position:bottom;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	justify-content:center;
+	align-items:center;
+}
+
+#cardWrapper{
+	height: 60vh;
+	width: 60vw;
+	display:flex;	
+	
+	border-radius:25px;
+	border: 2px solid #000000;
+	
+	background-color:rgba(248,240,227,0.8);
+}
+#photoWrapper{
+	height: 100%;
+	width: 30%;
+	display:flex;
+	flex-direction:column;
+	
+	border-radius: 20px 0px 0px 20px;
+	
+	background-color:rgba(84,82,77,0.6);
+}
+
+#textWrapper{
+	height:100%;
+	width: 70%;
+	display:flex;
+	flex-direction:column;
+}
+
+#pfp{
+	height: 25vh;
+	width: 12vw;
+	border-radius: 50%;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+}
+
+#iText{
+	font-style: italic;
+}
+
+
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5vh;
+    box-shadow: 0 1px 8px #ddd;
+	background-color:rgba(0,0,0,0.7);
+	font-size: 1.5em;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: #FFF;
+    transition: all 0.3s ease 0s;
+}
+
+header a:hover {
+    color: #b2dfdb;
+}

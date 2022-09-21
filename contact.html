@@ -1,33 +1,48 @@
-<!doctype html>
+<!doctype HTML>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Contact</title>
-<link rel="stylesheet" href="Styling/comingSoon.css">
-</head>
-
-<body>
-	<div class="bgimg" id="three">
-  		<div class="middle">
-			<form action="https://formspree.io/f/xzbwdjor"
-				  method="POST">
-				<label>
-					Your email:
-					<input type="email" name="email">
-				</label>
-				<br />
-				<label>
-					Your message:
-					<textarea name="message"></textarea>
-				</label>
-				<!-- your other form fields go here -->
-				<button type="submit" id="form_button">Send</button>
-			</form>
-			<br />
-			<a href="index.html">
-				<button class="home" role="button">Back to Home</button>
-			</a>
-  		</div>
+	<head>
+		<meta charset="utf-8">
+		<title>Contact</title>
+		<link rel="stylesheet" href="Styling/styling.css">
+		<link rel="stylesheet" href="Styling/contact.css">
+		<script src="Scripts/contact.js"></script>
+		
+		<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+		<link rel='preload' as='style' href='https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'>
+		<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'>
+	</head>
+	<body>
+	<span class = citation>MacDonald, Alexander. <a class = citationTitle>Zion National Park</a>, Utah. June 12 2022</span>
+		<header>
+			<a href="index.html">Home</a>
+			<nav>
+				<ul>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="resume.html">Resume</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+	<div id="pageWrapper">
+	<div id="formWrapper">
+	<form
+	  action="https://formspree.io/f/xzbwdjor"
+	  method="POST"
+	  onsubmit="return validation();"
+	>
+	  <label>
+		<h1>Your email *</h1>
+		<input type="email" name="email" class="contactArea" id="email">
+	  </label>
+	  <label>
+		<h1>Your message *</h1>
+		<textarea name="message" class="contactArea" id="message"></textarea>
+	  </label>
+	  </br>
+	  <!-- your other form fields go here -->
+	  <button type="submit" class="contactArea"id="sendBtn">Send</button>
+	</form>
 	</div>
-</body>
+	</div>
+	</body>
 </html>
