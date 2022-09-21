@@ -23,6 +23,11 @@ h1 {
     font-weight: normal;
 }
 
+h3 {
+    font-size: 15vw;
+    font-weight:normal;
+}
+
 a:link {
     color: white;
 }
