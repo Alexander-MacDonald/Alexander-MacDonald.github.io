@@ -1,7 +1,6 @@
 window.onresize = (event) => {
-    var width = document.documentElement.clientWidth;
 
-    if (width >= 800) {
+    if (window.matchMedia("(max-width: 800px)").matches) {
         window.location.href = "index.html";
     }
 }
