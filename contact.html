@@ -24,25 +24,26 @@
 			</nav>
 		</header>
 	<div id="pageWrapper">
-	<div id="formWrapper">
-	<form
-	  action="https://formspree.io/f/xzbwdjor"
-	  method="POST"
-	  onsubmit="return validation();"
-	>
-	  <label>
-		<h1>Your email *</h1>
-		<input type="email" name="email" class="contactArea" id="email">
-	  </label>
-	  <label>
-		<h1>Your message *</h1>
-		<textarea name="message" class="contactArea" id="message"></textarea>
-	  </label>
-	  </br>
-	  <!-- your other form fields go here -->
-	  <button type="submit" class="contactArea"id="sendBtn">Send</button>
-	</form>
-	</div>
+		<div id="formWrapper">
+			<form action="https://formspree.io/f/xzbwdjor"
+				  method="POST"
+				  onsubmit="return validation();">
+				<label>
+					<h1>Your email *</h1>
+					<input type="email" name="email" class="contactArea" id="email">
+				</label>
+				<label>
+					<h1>Your message *</h1>
+					<textarea name="message" class="contactArea" id="message"></textarea>
+				</label>
+				</br>
+				<button type="submit" class="contactArea" id="sendBtn">Send</button>
+			</form>
+			<div id="contactMessage">
+				<h1>Please wait 5 minutes between submissions.</h1>
+				<h1>Can't wait? Email me at ae_macdonald@outlook.com</h1>
+			</div>
+		</div>
 	</div>
 	</body>
 </html>
