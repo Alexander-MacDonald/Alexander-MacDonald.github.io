@@ -1,6 +1,12 @@
+html {
+    background: #181F24;
+    overflow-y:visible;
+}
 header {
     padding: 10px 0px;
     background-color: #4c4c4c;
+    box-shadow: none;
+    margin-bottom: 5vh;
 }
 
 header li {
@@ -10,10 +16,6 @@ header li {
 
 h1 {
     font-size:10vw;
-}
-
-#pageWrapper {
-    background: #181F24;
 }
 
 #cardWrapper {
@@ -32,7 +34,9 @@ h1 {
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-color: #4c4c4c
+    background-color: #4c4c4c;
+
+    padding-bottom:10vh;
 }
 
 #textWrapper {
