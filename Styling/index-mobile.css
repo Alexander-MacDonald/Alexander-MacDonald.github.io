@@ -1,13 +1,15 @@
 html {
     background: #181F24;
     overflow-y: visible;
-    font-family: "Trebuchet MS"
+    font-family: "Trebuchet MS";
+    text-align:center;
 }
 header {
-    padding: 10px 0px;
+    padding: 10vh 0vh;
     background-color: #4c4c4c;
     box-shadow: none;
     margin-bottom: 5vh;
+    font-size:5vw;
 }
 
 header li {
@@ -60,6 +62,8 @@ p {
     flex-direction: column;
     justify-content:center;
     align-content:center;
+
+    padding-bottom: 10vh;
 }
 
 #pfp {
