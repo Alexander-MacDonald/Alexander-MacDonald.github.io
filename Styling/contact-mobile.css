@@ -49,7 +49,8 @@ textarea {
     height:10vw;
     font-family: Arial;
     font-weight: normal;
-    font-size: 2vw;
+    font-size: 5vw;
+    color:white;
 }
 
     #sendBtn:active {
