@@ -63,12 +63,28 @@ h1 {
 	background-color:rgba(84,82,77,0.6);
 }
 
+	#photoWrapper a:link{
+		color:white;
+	}
+	
+	#photoWrapper a:visited{
+		color:white;
+	}
+
 #textWrapper{
 	height:100%;
 	width: 70%;
 	display:flex;
 	flex-direction:column;
+	justify-content:center;
 }
+	#textWrapper h1{
+		font-size:10vw;
+	}
+
+	#textWrapper p{
+		font-size:1vw;
+	}
 
 #pfp{
 	height: 25vh;
