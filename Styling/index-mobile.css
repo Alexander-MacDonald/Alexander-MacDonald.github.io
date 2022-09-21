@@ -1,6 +1,7 @@
 html {
     background: #181F24;
-    overflow-y:visible;
+    overflow-y: visible;
+    font-family: "Trebuchet MS"
 }
 header {
     padding: 10px 0px;
@@ -16,6 +17,19 @@ header li {
 
 h1 {
     font-size:10vw;
+}
+
+a:link {
+    color:white;
+}
+
+a:visited {
+    color: white;
+}
+
+p {
+    align-content:center;
+    justify-content:center;
 }
 
 #cardWrapper {
