@@ -65,8 +65,5 @@ textarea {
     }
 
 #contactMessage {
-    display:flex;
-    justify-content:center;
-    align-content:center;
-    margin: 5%;
+    text-align:center;
 }
