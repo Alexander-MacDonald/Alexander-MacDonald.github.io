@@ -58,6 +58,10 @@ iframe{
 	padding-bottom:5vh;
 }
 
+#heightmap {
+	display:block;
+}
+
 .Project{
 	width: 80%;
 	height: auto;
