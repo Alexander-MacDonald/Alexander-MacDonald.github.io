@@ -2,7 +2,7 @@ window.onload = (event) => {
 
     var width = window.innerWidth;
 
-    if (width < 600) {
+    if (width < 800) {
         window.location.href = "index-mobile.html";
     }
 }
@@ -10,7 +10,7 @@ window.onload = (event) => {
 window.onresize = (event) => {
     var width = window.innerWidth;
 
-    if (width < 600) {
+    if (width < 800) {
         window.location.href = "index-mobile.html";
     }
 }

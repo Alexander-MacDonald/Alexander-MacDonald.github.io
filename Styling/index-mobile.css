@@ -1,0 +1,51 @@
+header {
+    padding: 10px 0px;
+    background-color: #4c4c4c;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+}
+
+#pageWrapper {
+    background: #181F24;
+}
+
+#cardWrapper {
+    height: 60vh;
+    width: 90vw;
+    display: flex;
+    border: 2px solid #000000;
+    background-color: rgba(248,240,227);
+    flex-direction:column;
+}
+
+#photoWrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #4c4c4c
+}
+
+#textWrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-content:center;
+}
+
+#pfp {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+#iText {
+    font-style: italic;
+}
