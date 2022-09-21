@@ -1,0 +1,36 @@
+html {
+    background: #181F24;
+    overflow-y: visible;
+    font-family: "Trebuchet MS";
+    text-align: center;
+}
+
+header {
+    padding: 2vh 0vh;
+    background-color: #4c4c4c;
+    box-shadow: none;
+    margin-bottom: 5vh;
+    font-size: 5vw;
+}
+
+    header li {
+        list-style: none;
+        display: inline-block;
+    }
+
+h1 {
+    font-size: 20vw;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+p {
+    align-content: center;
+    justify-content: center;
+}

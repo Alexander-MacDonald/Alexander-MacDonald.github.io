@@ -1,0 +1,69 @@
+html {
+    overflow-y: visible;
+}
+h1 {
+    padding: 5vh;
+    color: white;
+}
+
+h3 {
+    padding:3vh;
+    color:white;
+}
+
+button {
+    padding: 5vh;
+    color: white;
+    width: 100%;
+    text-align: left;
+    font-size:3vw;
+    background-color: rgba(84,82,77);
+    outline: 0;
+    border: 0;
+}
+
+    button:hover {
+        background-color: rgba(94,92,87);
+    }
+
+    button:active {
+        background-color: rgba(104,102,98);
+    }
+
+iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#pageWrapper {
+    justify-content: start;
+    width: 100vw;
+    background: #181F24;
+}
+
+#projectWrapper {
+    width: 100vw;
+    height: auto;
+    background-color: #181F24;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.Project {
+    width: 100%;
+    height: auto;
+    color: white;
+    margin-bottom: 5vh;
+}
+
+.ProjectDesc {
+    background-color: rgba(104,102,98);
+    display: none;
+    padding-bottom: 5vh;
+}
+
+.iFrameWrapper {
+    width: 90%;
+    height: 50vh;
+}
