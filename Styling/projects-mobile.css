@@ -50,6 +50,14 @@ iframe {
     padding-bottom: 5vh;
 }
 
+#heightmap {
+    display: block;
+}
+
+#expressiontree {
+    display: block;
+}
+
 .Project {
     width: 100%;
     height: auto;

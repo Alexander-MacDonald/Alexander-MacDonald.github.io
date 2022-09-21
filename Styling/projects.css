@@ -62,6 +62,10 @@ iframe{
 	display:block;
 }
 
+#expressiontree {
+	display:block;
+}
+
 .Project{
 	width: 80%;
 	height: auto;
