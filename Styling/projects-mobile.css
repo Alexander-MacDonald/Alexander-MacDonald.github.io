@@ -11,22 +11,22 @@ h3 {
     color:white;
 }
 
-button {
+#pageWrapper button {
     padding: 5vh;
     color: white;
     width: 100%;
     text-align: left;
-    font-size:5vw;
-    background-color: rgba(84,82,77);
+    font-size: 5vw;
     outline: 0;
     border: 0;
+    background-color:#4c4c4c;
 }
 
-    button:hover {
+    #pageWrapper button:hover {
         background-color: rgba(94,92,87);
     }
 
-    button:active {
+    #pageWrapper button:active {
         background-color: rgba(104,102,98);
     }
 

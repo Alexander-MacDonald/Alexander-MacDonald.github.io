@@ -6,17 +6,31 @@ html {
 }
 
 header {
-    padding: 2vh 0vh;
     background-color: #4c4c4c;
     box-shadow: none;
     margin-bottom: 5vh;
     font-size: 5vw;
+    padding:0px 50px;
 }
 
     header li {
         list-style: none;
         display: inline-block;
     }
+
+    header button{
+        outline: 0;
+        border: 0;
+        background-color: #4c4c4c;
+        color:white;
+        font-size:5vw;
+        padding-top:5vw;
+        padding-bottom:5vw;
+    }
+
+        header button:hover {
+            color:#b2dfdb
+        }
 
 h1 {
     font-size: 20vw;
