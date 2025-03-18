@@ -1,40 +1,51 @@
-<!doctype HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>Alexander MacDonald Portfolio Website</title>
-	<link rel="stylesheet" href="Styling/styling.css">
-	<link rel="stylesheet" href="Styling/index.css">
-	<script src="Scripts/index.js"></script>
-
-	<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
-	<link rel='preload' as='style' href='https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'>
-	<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
 </head>
-<body class="homepage">
-	<header>
-			<a href="#">Home</a>
-			<nav>
-				<ul>
-					<li><a href="projects.html">Projects</a></li>
-					<li><a href="resume.html">Resume</a></li>
-				</ul>
-			</nav>
-		</header>
-	<span class = citation>MacDonald, Alexander. <a class = citationTitle>Grand Teton Mountains</a>, Wyoming. June 13 2022</span>
-	<div id = "pageWrapper">
-		<div id = "cardWrapper">
-			<div id= "photoWrapper">
-				<img id="pfp" src = "Styling/Images/pfp.jpg"></img>
-				<h1><a href="https://github.com/Alexander-MacDonald" target="_blank">GitHub</a></h1>
-				<h1><a href="https://www.linkedin.com/in/aemacdonald2/" target="_blank">LinkedIn</a></h1>
-			</div>
-			<div id= "textWrapper">
-				<h1><a id = "iText">Hello!</a></h1>
-				<h3> I am Alexander MacDonald, a current CS student at Worcester Polytechnic Institute</h3>
-				<h3> Welcome to my Portfolio Website!</h3>
-			</div>
-		</div>
-	</div>
+<body>
+    <div class="background"></div>
+
+    <nav class="nav">
+        <a onclick="showSection('home')">Home</a>
+        <a onclick="showSection('resume')">Resume</a>
+        <a onclick="populateSection('projects')">Projects</a>
+        <a onclick="populateSection('blog')">Dev Blog</a>
+        <a onclick="populateSection('life')">Life :-)</a>
+    </nav>
+
+    <div class="webpage">
+        <div id="home" class="content active">
+            <p class="heading">Hello!</p>
+            <a href="mailto:ae_macdonald@outlook.com"><img src="img/pfp.jpg" alt="me!"></a>
+            <h1>I'm Alexander MacDonald</h1>
+            <p>Software Engineer | WPI Grad</p>
+            <p>Passionate for designing, implementing, and refining solutions to problems</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/aemacdonald2" target="_blank">LinkedIn</a>
+                <a href="https://github.com/Alexander-MacDonald" target="_blank">GitHub</a>
+            </div>
+            <p>ae_macdonald@outlook.com</p>
+        </div>
+
+        <div id="resume" class="content">
+            <iframe src="https://drive.google.com/file/d/1gHTJX306HVm_06PrY9MxnUpTXRhep6Ud/preview" width="1200" height="700" allow="autoplay"></iframe>
+        </div>
+        
+        <div id="projects" class="content">
+        </div>
+
+        <div id="blog" class="content">
+        </div>
+
+        <div id="life" class="content">
+        </div>
+
+    </div>
+    </div>
+    <script src="index.js"></script>
 </body>
-</html
+</html>
