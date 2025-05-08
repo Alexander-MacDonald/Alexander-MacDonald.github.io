@@ -197,6 +197,6 @@ function formatModal(modal, JSON) {
 document.addEventListener("DOMContentLoaded", function () {
     let i = document.getElementById("resumeFrame");
     i.style.width = "80vw";
-    i.style.height = "60vw";
+    i.style.height = "80vh";
     console.log("Resume Landing Page Loaded Successfully!");
 });
